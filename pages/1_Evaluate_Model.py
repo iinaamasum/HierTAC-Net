@@ -35,12 +35,12 @@ def _ensure_model(scheme: str):
 
 def render():
     st.set_page_config(
-        page_title="GastroVisionNet - Evaluate", page_icon=None, layout="wide"
+        page_title="STRATIX-Net - Evaluate", page_icon=None, layout="wide"
     )
     inject_base_styles()
     # sidebar_brand()
 
-    st.title("GastroVisionNet")
+    st.title("STRATIX-Net")
     st.subheader("Evaluate Model")
 
     all_schemes = list(MODEL_REGISTRY.keys())

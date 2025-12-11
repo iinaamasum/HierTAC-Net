@@ -11,12 +11,12 @@ def _load_samples(root: str):
 
 def render():
     st.set_page_config(
-        page_title="GastroVisionNet - Samples", page_icon=None, layout="wide"
+        page_title="STRATIX-Net - Samples", page_icon=None, layout="wide"
     )
     inject_base_styles()
     # sidebar_brand()
 
-    st.title("GastroVisionNet")
+    st.title("STRATIX-Net")
     st.subheader("Sample Images")
     st.write(
         "Explore representative images across classes. Drop more images into the gallery folder to extend."
@@ -25,7 +25,7 @@ def render():
     items = _load_samples(os.getcwd())
     if not items:
         st.info(
-            "No sample images found yet. Drop images into `GastroVisionNet/assets/samples/` to display here."
+            "No sample images found yet. Drop images into `STRATIX-Net/assets/samples/` to display here."
         )
         footer()
         return

@@ -4,16 +4,16 @@ from utils.ui import inject_base_styles, sidebar_brand, footer
 
 def render():
     st.set_page_config(
-        page_title="STRATIX-Net - Privacy", page_icon=None, layout="wide"
+        page_title="HierTAC-Net - Privacy", page_icon=None, layout="wide"
     )
     # sidebar_brand()
     inject_base_styles()
 
-    st.title("STRATIX-Net")
+    st.title("HierTAC-Net")
     st.subheader("Privacy Policy")
 
     st.markdown(
-        "<div class='card'><h3>Intended Use</h3><p>STRATIX-Net is designed for research and educational purposes to assist in image-based endoscopic analysis. It is not a substitute for professional medical judgment yet. It is still under development and is not yet ready for clinical use. A rigorous validation process is ongoing to ensure the accuracy and reliability of the model.</p></div>",
+        "<div class='card'><h3>Intended Use</h3><p>HierTAC-Net is designed for research and educational purposes to assist in image-based endoscopic analysis. It is not a substitute for professional medical judgment yet. It is still under development and is not yet ready for clinical use. A rigorous validation process is ongoing to ensure the accuracy and reliability of the model.</p></div>",
         unsafe_allow_html=True,
     )
     st.markdown(

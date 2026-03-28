@@ -51,7 +51,7 @@ def sidebar_brand():
     st.sidebar.markdown(
         """
         <div style='padding:8px 6px 16px 6px;'>
-          <div style='font-weight:800;font-size:18px;letter-spacing:0.2px;'>STRATIX-Net</div>
+          <div style='font-weight:800;font-size:18px;letter-spacing:0.2px;'>HierTAC-Net</div>
         </div>
         """,
         unsafe_allow_html=True,
@@ -62,7 +62,7 @@ def footer():
     st.markdown(
         "<div style='text-align:center;color:#6b7280;padding:24px 0;'>"
         "© 2025 Qatar University Research Team<br/>"
-        "STRATIX-Net v1.0 | Advanced Endoscopic Image Intelligence<br/>"
+        "HierTAC-Net v1.0 | Advanced Endoscopic Image Intelligence<br/>"
         "Contact: <a href='mailto:masum.cse19@gmail.com'>masum.cse19@gmail.com</a>"
         "</div>",
         unsafe_allow_html=True,

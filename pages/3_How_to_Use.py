@@ -5,12 +5,12 @@ from utils.ui import inject_base_styles, sidebar_brand, footer
 
 def render():
     st.set_page_config(
-        page_title="STRATIX-Net - How to Use", page_icon=None, layout="wide"
+        page_title="HierTAC-Net - How to Use", page_icon=None, layout="wide"
     )
     inject_base_styles()
     # sidebar_brand()
 
-    st.title("STRATIX-Net")
+    st.title("HierTAC-Net")
     st.subheader("How to Use")
     st.write(
         "This short video demonstrates the workflow. Please play the video to see the workflow."
@@ -33,7 +33,7 @@ def render():
             )
     else:
         st.info(
-            "Place a tutorial video at `STRATIX-Net/assets/video/howto.mp4` to enable autoplay demo."
+            "Place a tutorial video at `HierTAC-Net/assets/video/howto.mp4` to enable autoplay demo."
         )
 
     footer()

@@ -2,7 +2,7 @@ import streamlit as st
 from utils.ui import inject_base_styles, footer
 
 
-st.set_page_config(page_title="STRATIX-Net", page_icon=None, layout="wide")
+st.set_page_config(page_title="HierTAC-Net", page_icon=None, layout="wide")
 inject_base_styles()
 
 
@@ -10,7 +10,7 @@ def main():
     hero = """
     <div class='hero-wrap'>
       <div class='hero-card'>
-        <div style='font-size:40px;font-weight:800;margin-bottom:6px;'>STRATIX-Net</div>
+        <div style='font-size:40px;font-weight:800;margin-bottom:6px;'>HierTAC-Net</div>
         <div style='font-size:18px;opacity:0.95;'>Precise gastrointestinal endoscopy image analysis powered by deep learning</div>
         <div style='margin-top:8px;font-size:14px;'>Developed by Qatar University Research Team, led by Dr. Amith Khandakar</div>
       </div>

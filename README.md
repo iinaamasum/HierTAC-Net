@@ -25,7 +25,7 @@ The sidebar is branded as “HierTAC-Net” and the first page is selected by de
 
 ## Assets
 
--   Models and checkpoints should be placed as required by `utils/models.py` (e.g., `MNv2_SA_8_cls/Best_States/best_model_fold_3.pth`).
+-   Models and checkpoints should be placed as required by `utils/models.py`
 -   Sample images: `HierTAC-Net/assets/samples/`
 -   Tutorial video: `HierTAC-Net/assets/video/howto.mp4`
 
